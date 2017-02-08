@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+    }
+    </style>
+    <!-- <link rel="stylesheet" href="css/main.min.css">
+    <script src='scripts/zepto.js'></script>
+    <script src='scripts/swiper.jquery.js'></script>
+    <script src='scripts/main.js'></script> -->
+    <script src='../dist/bundle.js'></script>
+</head>
+
+<body>
+    <div id="game_div">
+        <div class="mask-mask"></div>
+        <div class="main-page">
+            <header></header>
+            <main>
+                <div class="swiper">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper"></div>
+                    </div>
+                </div>
+                <div class="bar-container">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper"></div>
+                    </div>
+                    <div class="bow left-bow"></div>
+                    <div class="bow right-bow"></div>
+                </div>
+            </main>
+            <footer>
+                <div class="me">
+                    <div class="friend-help">请好友帮忙</div>
+                    <div class="group-btn">
+                        <div class="condition">集字动态</div>
+                        <div class="ranking">排行榜</div>
+                        <div class="award">兑奖中心</div>
+                    </div>
+                </div>
+                <div class="other">
+                    <div class="launch">我要集字</div>
+                    <div class="condition">集字动态</div>
+                </div>
+            </footer>
+        </div>
+        <div class="condition-page">
+            <div class="top-banner">
+                集字动态
+                <div class="good-icon"></div>
+                <div class="close-icon"></div>
+            </div>
+            <div class="condition-list">
+                <div class="list">
+                    <div class="wechat-img"></div>
+                    <span class="wechat-name">脚皮哥哥哥</span>
+                    <span class="condition-time">12-23 16:53:05</span>
+                    <div class="wechat-collection"></div>
+                </div>
+                <div class="list">
+                    <div class="wechat-img"></div>
+                    <span class="wechat-name">脚皮哥哥哥</span>
+                    <span class="condition-time">12-23 16:53:05</span>
+                    <div class="wechat-collection"></div>
+                </div>
+                <div class="list">
+                    <div class="wechat-img"></div>
+                    <span class="wechat-name">脚皮哥哥哥</span>
+                    <span class="condition-time">12-23 16:53:05</span>
+                    <div class="wechat-collection"></div>
+                </div>
+            </div>
+        </div>
+        <div class="award-page">
+            <div class="top-banner">
+                兑奖中心
+                <div class="gift-icon"></div>
+                <div class="close-icon"></div>
+            </div>
+            <div class="award-list">
+                <div class="list">
+                    <div class="list-left">
+                        <div></div>
+                    </div>
+                    <div class="list-right">
+                        <div class="list-top">
+                            <div class="collection-container">
+                                <div class="collection-wrap">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-bottom">
+                            <span class="gift-name">一元红包</span>
+                            <span class="gift-number">剩余9999份</span>
+                            <div class="gift-change">兑换</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list-left">
+                        <div></div>
+                    </div>
+                    <div class="list-right">
+                        <div class="list-top">
+                            <div class="collection-container">
+                                <div class="collection-wrap">
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-bottom">
+                            <span class="gift-name">五元红包</span>
+                            <span class="gift-number">剩余999份</span>
+                            <div class="gift-change">兑换</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list-left">
+                        <div style="background-image: url(images/icon1.png);"></div>
+                    </div>
+                    <div class="list-right">
+                        <div class="list-top">
+                            <div class="collection-container">
+                                <div class="collection-wrap">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-bottom">
+                            <span class="gift-name">iphone大奖</span>
+                            <span class="gift-number">剩余1份</span>
+                            <div class="gift-change">兑换</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="first-collection-me">
+            <p>恭喜你获得第一个字</p>
+            <div></div>
+            <p>快去找好友集齐其他字吧</p>
+            <div class="know-btn">知道了</div>
+        </div>
+        <div class="first-collection-other">
+            <p>恭喜你为<span>脚皮哥</span>集得一个字</p>
+            <div></div>
+            <div class="watch-condition">查看他的进度</div>
+            <div class="launch">我要集字</div>
+        </div>
+        <div class="collection-already-other">
+            <p>你已经为<span>脚皮哥</span>集过字啦</p>
+            <div class="watch-condition">查看他的进度</div>
+            <div class="launch">我要集字</div>
+        </div>
+        <div class="collection-public-platform">
+            <p>要关注公众号才能发起哦</p>
+            <img src="images/QRCode.png" alt="">
+            <div class="attention-public-platform">关注公众号</div>
+            <div class="watch-condition">查看他的进度</div>
+        </div>
+        <div class="full-collection-me">
+            <p>恭喜你集齐所有字啦</p>
+            <div></div>
+            <div class="know-btn">知道了</div>
+        </div>
+        <div class="full-collection-other">
+            <p><span>脚皮哥</span>已经集齐所有字啦</p>
+            <div></div>
+            <div class="watch-condition">查看他的进度</div>
+            <div class="launch">我要集字</div>
+        </div>
+    </div>
+    <script>
+    //适配平台rem设置
+    var container_width = 300;
+
+    function changeHTML() {
+        var width = window.innerWidth;
+        if (width > 700) {
+            container_width = window.innerWidth * 0.234;
+            container_width = (container_width < 300) ? 300 : container_width;
+            var size = container_width * 100 / 375;
+        } else {
+            var size = width * 100 / 375;
+        }
+        document.querySelector('html').style.fontSize = size + 'px';
+    }
+    changeHTML();
+    </script>
+</body>
+
+</html>
